@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>coson35 Portfolio</title>
+  <title>COSON35 Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -23,50 +24,45 @@
 
   <!-- Hero Section -->
   <section class="hero">
-    <div class="container">
-      <img src="assets/images/profile.jpg" alt="profile" class="profile-img" />
-      <h2>안녕하세요! 박동국입니다 👋</h2>
-      <p>AI 전공자로 공부 중이며, 웹서비스 개발과 데이터 분석에 관심이 많은 대학생입니다.<br>
-      JavaScript, HTML/CSS, Python, GitHub 기반 포트폴리오 프로젝트를 제작하고 있습니다.</p>
+    <div class="container hero-inner">
+      <img src="assets/images/profile.jpg" class="profile-img" />
+      <div>
+        <h2>안녕하세요 👋<br> 박동국입니다</h2>
+        <p>AI 전공 기반으로 웹서비스, 데이터 분석 프로젝트를 만들고 있습니다.<br>
+        GitHub, AWS, Next.js, HTML/CSS 기반 포트폴리오를 제작하고 있습니다.</p>
+      </div>
     </div>
   </section>
 
   <!-- About -->
   <section id="about" class="section">
     <div class="container">
-      <h2>About Me</h2>
+      <h2 class="section-title">About Me</h2>
       <p>
         꾸준히 성장하는 개발자를 목표로 하고 있으며,  
-        Next.js, Node.js, 데이터 분석, AWS에 관심이 많습니다.  
-        현재 GitHub 포트폴리오 과제를 진행 중이며, 다양한 개인 프로젝트를 만들고 있습니다.
+        Next.js, React, 데이터분석, AWS 인프라 구축에 관심이 있습니다.
       </p>
     </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects" class="section bg-light">
+  <section id="projects" class="section">
     <div class="container">
-      <h2>Projects</h2>
+      <h2 class="section-title">Projects</h2>
 
-      <div class="project">
-        <img src="assets/images/project-1.jpg" />
-        <div>
+      <div class="project-card">
+        <img src="assets/images/project-1.jpg">
+        <div class="project-content">
           <h3>⚾ 야구 선수 정보 웹서비스</h3>
-          <p>
-            청소년/중등 야구 선수 데이터를 수집하여,  
-            경기 기록/도루/타격 데이터를 시각화하는 웹서비스입니다.
-          </p>
+          <p>청소년 야구 선수 정보를 수집하고 기록을 시각화해주는 웹앱.</p>
         </div>
       </div>
 
-      <div class="project">
-        <img src="assets/images/project-2.jpg" />
-        <div>
-          <h3>📄 문서보안 CharonDocs</h3>
-          <p>
-            CAD/PDF/Office 파일을 보안뷰어로 조회하는 엔터프라이즈용 솔루션입니다.  
-            파일 반출 승인, 워터마크, 로그 기능을 구현하는 프로젝트입니다.
-          </p>
+      <div class="project-card">
+        <img src="assets/images/project-2.jpg">
+        <div class="project-content">
+          <h3>📄 CharonDocs 문서보안 솔루션</h3>
+          <p>CAD/PDF 파일을 보안 뷰어로 보여주는 기업용 문서보안 시스템.</p>
         </div>
       </div>
 
@@ -76,28 +72,28 @@
   <!-- Skills -->
   <section id="skills" class="section">
     <div class="container">
-      <h2>Skills</h2>
-      <ul class="skills">
+      <h2 class="section-title">Skills</h2>
+      <ul class="skills-list">
         <li>HTML / CSS / JavaScript</li>
         <li>Next.js / React</li>
         <li>Python / Pandas</li>
-        <li>MySQL / MariaDB</li>
-        <li>AWS EC2 / Git / GitHub</li>
+        <li>MariaDB / MySQL</li>
+        <li>AWS EC2</li>
       </ul>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact" class="section bg-light">
+  <section id="contact" class="section">
     <div class="container">
-      <h2>Contact</h2>
+      <h2 class="section-title">Contact</h2>
       <p>📧 Email : coson35@naver.com</p>
       <p>📘 GitHub : <a href="https://github.com/coson35">@coson35</a></p>
     </div>
   </section>
 
   <footer class="footer">
-    <p>© 2025 COSON35 Portfolio. All Rights Reserved.</p>
+    <p>© 2025 COSON35 Portfolio</p>
   </footer>
 
 </body>
